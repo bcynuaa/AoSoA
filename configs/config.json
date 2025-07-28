@@ -1,0 +1,4 @@
+{
+    "backend": "rocm",
+    "neighbourhood": 50
+}
