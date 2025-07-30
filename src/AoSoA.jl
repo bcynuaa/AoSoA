@@ -182,6 +182,7 @@ end
     report = @timed begin
         for _ in 1:n_loops
             kernel!(neighbourhood, index, data, ndrange = (n,))
+            KernelAbstractions.synchronize(Backend)
         end
     end
     index = nothing
