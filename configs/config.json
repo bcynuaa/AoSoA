@@ -1,4 +1,14 @@
 {
+    "device": "Radeon-780M",
+    "n_threads": 256,
     "backend": "rocm",
-    "neighbourhood": 50
+    "n_neighbourhood": 50,
+    "n_loops": 200,
+    "n_list": [
+        1000,
+        10000,
+        100000,
+        1000000,
+        10000000
+    ]
 }
